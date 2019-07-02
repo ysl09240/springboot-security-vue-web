@@ -1,0 +1,1164 @@
+.areaNvr .liveContent {
+	display: flex;
+	flex-wrap: nowrap;
+	flex-direction: column;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	overflow-y: hidden;
+	border-radius: 2px
+}
+
+.areaNvr .divLeft {
+	position: absolute;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	right: 260px;
+	background-color: #DDE1E6
+}
+
+.areaNvr .divHoulderControl {
+	position: absolute;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	width: 260px;
+	border-right: 1px solid #94b8e1;
+	border-top: 1px solid #94b8e1;
+	border-bottom: 1px solid #94b8e1;
+	background-color: #cfd7e0
+}
+
+.areaNvr #rightTop {
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	height: 36px;
+	background-color: #cad5e2;
+	border-bottom: 1px solid #94b8e1;
+	cursor: pointer
+}
+
+.areaNvr #rightTop b {
+	border-right: transparent 8px solid;
+	border-top: transparent 8px solid;
+	border-bottom: transparent 8px solid;
+	border-left: #65a0e4 8px solid;
+	font-size: 0;
+	width: 0;
+	line-height: 0;
+	position: absolute;
+	top: 9px;
+	left: 10px;
+	height: 0
+}
+
+.areaNvr #rightTop b .b_mask {
+	border-left: 4px solid #cad5e2;
+	border-top: 4px solid transparent;
+	border-bottom: 4px solid transparent;
+	border-right: 4px solid transparent;
+	width: 0;
+	height: 0;
+	left: -8px;
+	top: -4px
+}
+
+.areaNvr .ctive {
+	height: 36px;
+	width: 220px;
+	margin: 0
+}
+
+.areaNvr .point,.areaNvr .pointPlat {
+	color: #428bca
+}
+
+.areaNvr .ctive>li {
+	height: 36px;
+	line-height: 36px;
+	width: 50%;
+	float: left;
+	font-size: 15px
+}
+
+.areaNvr #rightTop_close {
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	background-color: #cfd7e0;
+	cursor: pointer
+}
+
+.areaNvr #rightTop_close b {
+	border-right: #65a0e4 8px solid;
+	border-top: transparent 8px solid;
+	border-bottom: transparent 8px solid;
+	border-left: transparent 8px solid;
+	font-size: 0;
+	width: 0;
+	line-height: 0;
+	position: absolute;
+	top: 6px;
+	left: -1px;
+	height: 0
+}
+
+.areaNvr #rightTop_close b .b_mask {
+	border-right: 4px solid #cad5e2;
+	border-top: 4px solid transparent;
+	border-bottom: 4px solid transparent;
+	border-left: 4px solid transparent;
+	width: 0;
+	height: 0;
+	left: 0;
+	top: -4px
+}
+
+.areaNvr .changer {
+	right: 24px
+}
+
+.areaNvr .correct {
+	width: 24px
+}
+
+.areaNvr #rightBottom {
+	position: absolute;
+	left: 0;
+	top: 40px;
+	right: 0;
+	bottom: 0
+}
+
+.areaNvr #rightBottom .childPL {
+	bottom: 0
+}
+
+.areaNvr .childPL {
+	position: absolute;
+	top: 0;
+	left: 15px;
+	right: 15px
+}
+
+.areaNvr #PtzPane {
+	position: absolute;
+	top: 21px;
+	left: 26px;
+	width: 182px;
+	height: 140px
+}
+
+.areaNvr .speedPL {
+	position: absolute;
+	left: 12px;
+	right: 8px;
+	top: 160px;
+	background: #428bca;
+	border-radius: 6px
+}
+
+.areaNvr #imgCtrlPL {
+	position: absolute;
+	left: 17px;
+	top: 214px;
+	font-size: 0
+}
+
+.areaNvr #presetCruisePL {
+	position: absolute;
+	top: 374px;
+	left: 0;
+	right: 0;
+	bottom: 13px
+}
+
+.areaNvr .tbnmon {
+	position: absolute;
+	padding: 3px 2px;
+	top: 4px;
+	background: #4f9999;
+	display: block;
+	right: 4px;
+	color: #fff;
+	font-size: 11px;
+	cursor: pointer
+}
+
+.areaNvr i {
+	font-style: normal
+}
+
+.areaNvr #divLeftBottom .fli {
+	background-position: -68px 0
+}
+
+.areaNvr #PtzPane>button {
+	position: relative;
+	width: 55px;
+	height: 36px;
+	float: left;
+	margin: 2px;
+	border: none
+}
+
+.areaNvr #PtzPane>button:hover {
+	background-position: -55px 0
+}
+
+.areaNvr #Ptz_LU {
+	background-image: url(../assets/monitorImg/HoulderControl/LU.png)
+}
+
+.areaNvr #Ptz_U {
+	background-image: url(../assets/monitorImg/HoulderControl/U.png?v=1)
+}
+
+.areaNvr #Ptz_RU {
+	background-image: url(../assets/monitorImg/HoulderControl/RU.png)
+}
+
+.areaNvr #Ptz_L {
+	background-image: url(../assets/monitorImg/HoulderControl/L.png)
+}
+
+.areaNvr #Ptz_Stop {
+	background-image: url(../assets/monitorImg/HoulderControl/Stop.png)
+}
+
+.areaNvr #Ptz_R {
+	background-image: url(../assets/monitorImg/HoulderControl/R.png)
+}
+
+.areaNvr #Ptz_LD {
+	background-image: url(../assets/monitorImg/HoulderControl/LD.png)
+}
+
+.areaNvr #Ptz_D {
+	background-image: url(../assets/monitorImg/HoulderControl/D.png)
+}
+
+.areaNvr #Ptz_RD {
+	background-image: url(../assets/monitorImg/HoulderControl/RD.png)
+}
+
+.areaNvr .monitor-part {
+	width: 100%;
+	height: 100%
+}
+
+.areaNvr .el-slider__runway.show-input {
+	margin-right: 0
+}
+
+.areaNvr .el-input-number--small .el-input-number__decrease {
+	left: -74px;
+	border-radius: 4px;
+	width: 22px;
+	height: 22px;
+	line-height: 23px;
+	top: 3px;
+	background: 0 0;
+	border-right: none;
+	color: #fff
+}
+
+.areaNvr .el-input-number--small .el-input-number__increase {
+	right: 10px;
+	border-radius: 4px;
+	width: 22px;
+	height: 22px;
+	line-height: 23px;
+	top: 3px;
+	background: 0 0;
+	border-left: none;
+	color: #fff
+}
+
+.areaNvr .el-input-number .el-input {
+	display: none
+}
+
+.areaNvr .el-slider__runway.show-input {
+	width: 61%;
+	margin-left: 39px
+}
+
+.areaNvr .el-slider__runway {
+	margin: 14px 0
+}
+
+.areaNvr .el-icon-minus,.areaNvr .el-icon-plus {
+	font-weight: 700
+}
+
+.areaNvr .buttonImg {
+	position: absolute;
+	width: 100%;
+	height: 20px;
+	left: 0;
+	bottom: 0;
+	background: #808181;
+	opacity: 1;
+	padding: 9px 0;
+	display: inline-block;
+	display: none
+}
+
+.areaNvr .iconButton {
+	display: inline-block;
+	width: 25px;
+	height: 25px;
+	margin: 0 2px
+}
+
+.areaNvr .selectedHover {
+	display: block
+}
+
+.areaNvr .Preview {
+	background: url(../assets/monitorImg/HoulderControl/Btn_Close_Preview.png) no-repeat;
+	background-position: -48px 0
+}
+
+.areaNvr .Snap {
+	background: url(../assets/monitorImg/HoulderControl/Btn_Snap_Image.png) no-repeat;
+	background-position: -48px 0
+}
+
+.areaNvr .DZoo {
+	background: url(../assets/monitorImg/HoulderControl/Btn_Start_3D_Zoom_In.png) no-repeat;
+	background-position: -48px 0
+}
+
+.areaNvr .record {
+	background: url(../assets/monitorImg/HoulderControl/Btn_Stop_Record_Image.png) no-repeat;
+	background-position: -48px 0
+}
+
+.areaNvr .audio {
+	background: url(../assets/monitorImg/HoulderControl/Btn_Audio_Talkback.png) no-repeat;
+	background-position: -48px 0
+}
+
+.areaNvr .audioClose {
+	background: url(../assets/monitorImg/HoulderControl/Btn_Audio_Closed.png) no-repeat;
+	background-position: -48px 0
+}
+
+.areaNvr .zoom {
+	background: url(../assets/monitorImg/HoulderControl/Btn_Image_Zoom_Out.png) no-repeat;
+	background-position: -48px 0
+}
+
+.areaNvr .corr {
+	background: url(../assets/monitorImg/HoulderControl/Btn_Image_Corrent_Size.png) no-repeat;
+	background-position: -48px 0
+}
+
+.areaNvr .DZoo:hover,.areaNvr .Preview:hover,.areaNvr .Snap:hover,.areaNvr .audio:hover,.areaNvr .audioClose:hover,.areaNvr .corr:hover,.areaNvr .record:hover,.areaNvr .zoom:hover {
+	background-position: 0 0
+}
+
+.areaNvr #imgCtrlPL .row {
+	position: relative;
+	height: 30px;
+	margin: 0 0 5px 0
+}
+
+.areaNvr #imgCtrlPL .row .leftBtn {
+	position: absolute;
+	width: 47px;
+	height: 30px;
+	left: 0;
+	top: 0;
+	border: none
+}
+
+.areaNvr #imgCtrlPL .row .leftBtn:hover {
+	background-position: -47px 0
+}
+
+.areaNvr #zoomOut {
+	background-image: url(../assets/monitorImg/HoulderControl/ZoomOut.png)
+}
+
+.areaNvr #imgCtrlPL .row .leftArr {
+	position: absolute;
+	width: 27px;
+	height: 10px;
+	left: 49px;
+	top: 10px;
+	background-image: url(../assets/monitorImg/HoulderControl/arr_left.png)
+}
+
+.areaNvr #imgCtrlPL .row .ctrlName {
+	position: absolute;
+	width: 42px;
+	height: 30px;
+	left: 75px;
+	top: 0;
+	text-align: center;
+	font-size: 15px;
+	color: #898989;
+	padding: 4px 0 0 0
+}
+
+.areaNvr #imgCtrlPL .row .rightArr {
+	position: absolute;
+	width: 27px;
+	height: 10px;
+	left: 117px;
+	top: 10px;
+	background-image: url(../assets/monitorImg/HoulderControl/arr_right.png)
+}
+
+.areaNvr #imgCtrlPL .row .rightBtn {
+	position: absolute;
+	width: 47px;
+	height: 30px;
+	left: 147px;
+	top: 0;
+	border: none
+}
+
+.areaNvr #imgCtrlPL .row .rightBtn:hover {
+	background-position: -47px 0
+}
+
+.areaNvr #zoomIn {
+	background-image: url(../assets/monitorImg/HoulderControl/ZoomIn.png)
+}
+
+.areaNvr #focusOut {
+	background-image: url(../assets/monitorImg/HoulderControl/FocusOut.png)
+}
+
+.areaNvr #focusIn {
+	background-image: url(../assets/monitorImg/HoulderControl/FocusIn.png)
+}
+
+.areaNvr #irisOut {
+	background-image: url(../assets/monitorImg/HoulderControl/IrisOut.png)
+}
+
+.areaNvr #irisIn {
+	background-image: url(../assets/monitorImg/HoulderControl/IrisIn.png)
+}
+
+.areaNvr #trace {
+	width: 47px;
+	height: 30px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	background-image: url(../assets/monitorImg/HoulderControl/lij.png);
+	border: none
+}
+
+.areaNvr #trace:hover {
+	background-position: -47px 0
+}
+
+.areaNvr #scan {
+	width: 47px;
+	height: 30px;
+	position: absolute;
+	left: 49px;
+	top: 0;
+	background-image: url(../assets/monitorImg/HoulderControl/scan.png);
+	border: none
+}
+
+.areaNvr #scan:hover {
+	background-position: -47px 0
+}
+
+.areaNvr #wiper {
+	width: 47px;
+	height: 30px;
+	position: absolute;
+	left: 98px;
+	top: 0;
+	background-image: url(../assets/monitorImg/HoulderControl/wiper.png);
+	border: none
+}
+
+.areaNvr #wiper:hover {
+	background-position: -47px 0
+}
+
+.areaNvr #light {
+	width: 47px;
+	height: 30px;
+	position: absolute;
+	left: 147px;
+	top: 0;
+	background-image: url(../assets/monitorImg/HoulderControl/light.png);
+	border: none
+}
+
+.areaNvr #light:hover {
+	background-position: -47px 0
+}
+
+.areaNvr .el-tabs__item {
+	padding: 0 10px
+}
+
+.areaNvr .el-tabs--card>.el-tabs__header .el-tabs__nav {
+	border: 1px solid #94b8e1;
+	border-bottom: none
+}
+
+.areaNvr .el-tabs--card>.el-tabs__header .el-tabs__item.is-active {
+	border-bottom-color: #cfd7e0
+}
+
+.areaNvr .el-tabs--card>.el-tabs__header {
+	border-bottom: 1px solid #94b8e1
+}
+
+.areaNvr .el-tabs--card>.el-tabs__header .el-tabs__item {
+	background: #cad5e2;
+	border-bottom: 1px solid #94b8e1;
+	border-left: 1px solid #94b8e1
+}
+
+.areaNvr #tabContent {
+	position: absolute;
+	top: 40px;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	border: 1px solid #94b8e1;
+	z-index: 7;
+	border-top: none;
+	border-top-right-radius: 2px
+}
+
+.areaNvr #divCruise,.areaNvr #divPreset,.areaNvr #divTracoe {
+	position: absolute;
+	top: 20px;
+	left: 12px;
+	right: 12px;
+	bottom: 0;
+	overflow: auto
+}
+
+.areaNvr .listbox_row {
+	position: relative;
+	cursor: pointer
+}
+
+.areaNvr .listbox_row {
+	font-size: 13px;
+	padding: 5px 3px 5px 10px;
+	text-align: left;
+	color: grey
+}
+
+.areaNvr .listbox_row span {
+	display: inline-block;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis
+}
+
+.areaNvr .listbox_row div.btnDiv {
+	top: 5px
+}
+
+.areaNvr .btnDiv {
+	position: absolute;
+	right: 10px
+}
+
+.areaNvr .listbox_row div.preset_save {
+	display: inline-block;
+	zoom: 1;
+	width: 12px;
+	height: 12px;
+	margin: 2px 10px 0 5px;
+	background-position: -120px -3px
+}
+
+.areaNvr .img {
+	background: url(../assets/monitorImg/img.png) no-repeat
+}
+
+.areaNvr .listbox_row div.preset_call {
+	display: inline-block;
+	zoom: 1;
+	width: 15px;
+	height: 15px;
+	margin: 2px 10px 0 5px;
+	background-position: -191px -2px
+}
+
+.areaNvr .img {
+	background: url(../assets/monitorImg/img.png) no-repeat
+}
+
+.areaNvr .listbox_row div.preset_del {
+	display: inline-block;
+	zoom: 1;
+	width: 12px;
+	height: 12px;
+	margin: 2px 10px 0 5px;
+	background-position: -119px -30px
+}
+
+.areaNvr .listbox_row div.preset_del_no {
+	display: inline-block;
+	zoom: 1;
+	width: 12px;
+	height: 12px;
+	margin: 2px 10px 0 5px;
+	background-position: -119px -30px
+}
+
+.areaNvr .listbox_row:hover {
+	background-color: #A4B5C7
+}
+
+.areaNvr .img {
+	background: url(../assets/monitorImg/img.png) no-repeat
+}
+
+.areaNvr .selectedStyle {
+	background-position: -68px 0
+}
+
+.areaNvr .btnDiv {
+	display: none
+}
+
+.areaNvr .selectState {
+	display: block
+}
+
+.areaNvr .selected {
+	display: block
+}
+
+.areaNvr #cruiseCtrl {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 23px;
+	text-align: right;
+	font-size: 0;
+	border-bottom: 1px solid #94b8e1
+}
+
+.areaNvr #cruiseCtrl>div {
+	width: 40px;
+	height: 16px;
+	display: inline-block;
+	zoom: 1;
+	margin: 3px 3px 0 0
+}
+
+.areaNvr #cruise_play {
+	background-image: url(../assets/monitorImg/HoulderControl/start_cruise.png)
+}
+
+.areaNvr #cruise_stop {
+	background-image: url(../assets/monitorImg/HoulderControl/stop_cruise.png)
+}
+
+.areaNvr .cruise,.areaNvr .track {
+	text-align: left;
+	padding: 8px 3px 8px 10px;
+	list-style: none;
+	font-size: 13px
+}
+
+.areaNvr .cruise:hover,.areaNvr .track:hover {
+	background-color: #A4B5C7
+}
+
+.areaNvr #TracoeCtrl {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 23px;
+	text-align: right;
+	font-size: 0;
+	border-bottom: 1px solid #94b8e1
+}
+
+.areaNvr #TracoeCtrl>div {
+	width: 40px;
+	height: 16px;
+	display: inline-block;
+	zoom: 1;
+	margin: 3px 3px 0 0
+}
+
+.areaNvr #Tracoe_play {
+	background-image: url(../assets/monitorImg/HoulderControl/start_cruise.png)
+}
+
+.areaNvr #TracoeCtrl>div {
+	width: 40px;
+	height: 16px;
+	display: inline-block;
+	zoom: 1;
+	margin: 3px 3px 0 0
+}
+
+.areaNvr #Tracoe_stop {
+	background-image: url(../assets/monitorImg/HoulderControl/stop_cruise.png)
+}
+
+.areaNvr #divLeftCenter {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 45px;
+	background-color: #494a4b;
+	vertical-align: middle;
+	border: solid #ccc 1px;
+	color: #fff
+}
+
+.areaNvr .hiddenDiv {
+	display: block;
+	width: 100%;
+	height: 100%
+}
+
+.areaNvr .active {
+	display: block
+}
+
+.areaNvr #divLeftCenter div.fdiv {
+	display: block
+}
+
+.areaNvr .monitor1 {
+	width: 50%;
+	height: 50%;
+	float: left;
+	box-sizing: border-box;
+	margin: 0;
+	border: 7px solid #565657;
+	position: relative;
+	flex: 1 1 0%
+}
+
+.areaNvr .monitor0 {
+	width: 100%;
+	height: 100%;
+	box-sizing: border-box;
+	margin: 0;
+	border: 7px solid #565657;
+	position: relative
+}
+
+.areaNvr .monitor2 {
+	width: 33.3333333%;
+	height: 33.3333333%;
+	float: left;
+	box-sizing: border-box;
+	margin: 0;
+	border: 7px solid #565657;
+	position: relative
+}
+
+.areaNvr .monitor3 {
+	width: 25%;
+	height: 25%;
+	float: left;
+	box-sizing: border-box;
+	margin: 0;
+	border: 7px solid #565657;
+	position: relative
+}
+
+.areaNvr .monitor4 {
+	width: 20%;
+	height: 20%;
+	float: left;
+	box-sizing: border-box;
+	margin: 0;
+	border: 7px solid #565657;
+	position: relative
+}
+
+.areaNvr .monitor5:first-child {
+	width: 75%;
+	height: 75%
+}
+
+.areaNvr .monitor5 {
+	width: 25%;
+	height: 25%;
+	float: left;
+	box-sizing: border-box;
+	margin: 0;
+	border: 7px solid #565657;
+	position: relative
+}
+
+.areaNvr .monitor6:first-child {
+	width: 80%;
+	height: 80%
+}
+
+.areaNvr .monitor6 {
+	width: 20%;
+	height: 20%;
+	float: left;
+	box-sizing: border-box;
+	margin: 0;
+	border: 7px solid #565657;
+	position: relative
+}
+
+.areaNvr .monitor10 {
+	width: 16.6666667%;
+	height: 16.6666667%;
+	float: left;
+	box-sizing: border-box;
+	margin: 0;
+	border: 7px solid #565657;
+	position: relative
+}
+
+.areaNvr .monitor11 {
+	width: 14.2857143%;
+	height: 14.2857143%;
+	float: left;
+	box-sizing: border-box;
+	margin: 0;
+	border: 7px solid #565657;
+	position: relative
+}
+
+.areaNvr .monitor12 {
+	width: 12.5%;
+	height: 12.5%;
+	float: left;
+	box-sizing: border-box;
+	margin: 0;
+	border: 7px solid #565657;
+	position: relative
+}
+
+.areaNvr #divLeftBottom {
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	height: 45px;
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	background-color: #DDE1E6
+}
+
+.areaNvr #full_screen,.areaNvr #seg_1,.areaNvr #seg_16,.areaNvr #seg_25,.areaNvr #seg_4,.areaNvr #seg_9,.areaNvr #seg_selector {
+	position: relative;
+	width: 34px;
+	height: 34px;
+	float: left;
+	margin-left: 10px;
+	margin-top: 8px;
+	cursor: pointer;
+	margin-bottom: 0
+}
+
+.areaNvr .tab p {
+	position: relative;
+	width: 34px;
+	height: 34px;
+	float: left;
+	margin-left: 10px;
+	margin-top: 8px;
+	cursor: pointer;
+	margin-bottom: 0
+}
+
+.areaNvr .tab p:hover {
+	background-position: -34px 0
+}
+
+.areaNvr #seg_1 {
+	background: url(../assets/monitorImg/seg_1.png) no-repeat
+}
+
+.areaNvr #seg_4 {
+	background: url(../assets/monitorImg/seg_4.png) no-repeat
+}
+
+.areaNvr #seg_9 {
+	background: url(../assets/monitorImg/seg_9.png) no-repeat;
+	background-repeat: no-repeat
+}
+
+.areaNvr #seg_16 {
+	background: url(../assets/monitorImg/seg_16.png) no-repeat
+}
+
+.areaNvr #seg_25 {
+	background: url(../assets/monitorImg/seg_25.png) no-repeat
+}
+
+.areaNvr #seg_selector {
+	background: url(../assets/monitorImg/seg_selector.png) no-repeat
+}
+
+.areaNvr #full_screen {
+	background: url(../assets/monitorImg/full_screen.png) no-repeat
+}
+
+.areaNvr #view_all_chl {
+	position: relative;
+	width: 34px;
+	height: 34px;
+	float: right;
+	margin: 8px 8px 0 0;
+	cursor: pointer
+}
+
+.areaNvr #view_all_chl {
+	background: url(../assets/monitorImg/open_all_chl.png) no-repeat
+}
+
+.areaNvr #full_screen:hover,.areaNvr #seg_10:hover,.areaNvr #seg_16:hover,.areaNvr #seg_17:hover,.areaNvr #seg_1:hover,.areaNvr #seg_21:hover,.areaNvr #seg_25:hover,.areaNvr #seg_33:hover,.areaNvr #seg_36:hover,.areaNvr #seg_49:hover,.areaNvr #seg_4:hover,.areaNvr #seg_64:hover,.areaNvr #seg_8:hover,.areaNvr #seg_9:hover,.areaNvr #seg_selector:hover,.areaNvr #view_all_chl:hover {
+	background-position: -34px 0
+}
+
+.areaNvr #other_seg_pl {
+	width: 180px;
+	height: 92px;
+	border: solid 1px #ccc;
+	z-index: 100;
+	position: absolute;
+	top: -95px;
+	left: -75px;
+	background-color: #FFF;
+	border-radius: 4px
+}
+
+.areaNvr #seg_8 {
+	background: url(../assets/monitorImg/seg_8.png) no-repeat
+}
+
+.areaNvr #seg_10,.areaNvr #seg_17,.areaNvr #seg_21,.areaNvr #seg_33,.areaNvr #seg_36,.areaNvr #seg_49,.areaNvr #seg_64,.areaNvr #seg_8 {
+	width: 34px;
+	height: 34px;
+	float: left;
+	margin: 8px 0 2px 8px;
+	cursor: pointer
+}
+
+.areaNvr #seg_10 {
+	background: url(../assets/monitorImg/seg_10.png) no-repeat
+}
+
+.areaNvr #seg_17 {
+	background: url(../assets/monitorImg/seg_17.png) no-repeat
+}
+
+.areaNvr #seg_21 {
+	background: url(../assets/monitorImg/seg_21.png) no-repeat
+}
+
+.areaNvr #seg_33 {
+	background: url(../assets/monitorImg/seg_33.png) no-repeat
+}
+
+.areaNvr #seg_36 {
+	background: url(../assets/monitorImg/seg_36.png) no-repeat
+}
+
+.areaNvr #seg_49 {
+	background: url(../assets/monitorImg/seg_49.png) no-repeat
+}
+
+.areaNvr #seg_64 {
+	background: url(../assets/monitorImg/seg_64.png) no-repeat
+}
+
+.areaNvr .el-tabs__item.is-active {
+	color: #428bca
+}
+
+.areaNvr .el-tree-node__content:hover {
+	background-color: #d7dfe8
+}
+
+.areaNvr .el-tree-node:focus>.el-tree-node__content {
+	background: #d7dfe8
+}
+
+.areaNvr .area-title {
+	overflow: hidden;
+	line-height: 40px;
+	height: 40px;
+	text-align: left;
+	margin: 0;
+	color: #e6a23c;
+	min-height: 40px;
+	padding-right: 20px;
+	padding-left: 20px;
+	background-color: #fafafa;
+	background-image: -moz-linear-gradient(top,#fff,#f2f2f2);
+	background-image: -o-linear-gradient(top,#fff,#f2f2f2);
+	background-image: linear-gradient(to bottom,#fff,#ead0a8);
+	background-repeat: repeat-x;
+	border: 1px solid #ead0a8;
+	-moz-border-radius: 4px;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#fff2f2f2', GradientType=0);
+	-moz-box-shadow: 0 1px 4px rgba(0,0,0,.065);
+	box-shadow: 0 1px 4px rgba(0,0,0,.065);
+	border-radius: 7px
+}
+
+.areaNvr #areaMonitor {
+	width: 344px;
+	height: 290px;
+	background: #ddd;
+	margin: 30px 0 30px 0;
+	display: block
+}
+
+.areaNvr #areaMonitor1 {
+	width: 260px;
+	height: 240px;
+	background: #ddd;
+	display: block
+}
+
+.areaNvr #areaMonitor2 {
+	width: 480px;
+	height: 322px;
+	background: #ddd;
+	display: block
+}
+
+.areaNvr .atreIcon {
+	margin: 0
+}
+
+.areaNvr .subTitle>a {
+	color: #8D8D8D
+}
+
+.areaNvr .jiankong>.el-card__body {
+	overflow: hidden;
+	text-align: left;
+	margin: 0;
+	color: #e6a23c;
+	min-height: 40px;
+	padding-right: 20px;
+	padding-left: 20px;
+	background-color: #fafafa;
+	background-image: -webkit-gradient(linear,left top,left bottom,from(#fff),to(#ead0a8));
+	background-image: linear-gradient(to bottom,#fff,#ead0a8);
+	background-repeat: repeat-x;
+	border: 1px solid #ead0a8;
+	-moz-border-radius: 4px;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#fff2f2f2', GradientType=0);
+	-webkit-box-shadow: 0 1px 4px rgba(0,0,0,.065);
+	box-shadow: 0 1px 4px rgba(0,0,0,.065);
+	border-radius: 7px
+}
+
+.areaNvr #PtPane {
+	width: 126px;
+	height: 126px
+}
+
+.areaNvr #PtPane>button {
+	width: 40px;
+	height: 40px;
+	float: left;
+	margin: 1px
+}
+
+.areaNvr .LU {
+	background-position: -507px -507px
+}
+
+.areaNvr .U {
+	background-position: -768px -556px
+}
+
+.areaNvr .RU {
+	background-position: -765px -203px
+}
+
+.areaNvr .L {
+	background-position: -508px -355px
+}
+
+.areaNvr .Stop {
+	background-position: -767px -460px
+}
+
+.areaNvr .R {
+	background-position: -762px -50px
+}
+
+.areaNvr .LD {
+	background-position: -508px -408px
+}
+
+.areaNvr .D {
+	background-position: -508px -48px
+}
+
+.areaNvr .RD {
+	background-position: -764px -147px
+}
+
+.areaNvr #imgCtrlPLpl {
+	width: 115px;
+	height: 112px
+}
+
+.areaNvr #imgCtrlPLpl>button {
+	width: 55px;
+	height: 36px;
+	float: left;
+	margin: 1px
+}
+
+.areaNvr .ZoomOut {
+	background-position: -1016px -101px
+}
+
+.areaNvr .ZoomIn {
+	background-position: -1016px -50px
+}
+
+.areaNvr .FocusIn {
+	background-position: -507px -99px
+}
+
+.areaNvr .FocusOut {
+	background-position: -506px -149px
+}
+
+.areaNvr .IrisIn {
+	background-position: -507px -250px
+}
+
+.areaNvr .IrisOut {
+	background-position: -507px -304px
+}

@@ -1,0 +1,50 @@
+.monitor .slider_border {
+	width: 161px;
+	height: 20px
+}
+
+.monitor .slider_line {
+	background: url(../../img/monitorSlider/sliderbk.png?v=5);
+	position: absolute;
+	left: 0;
+	top: 8px;
+	width: 143px;
+	height: 4px;
+	cursor: pointer
+}
+
+.monitor .slider_border.disabled .slider_line {
+	cursor: default;
+	background-position: -501px
+}
+
+.monitor .slider_thumb {
+	background: url(../../img/monitorSlider/sliderthumb.png?v=5);
+	z-index: 1;
+	position: absolute;
+	left: 0;
+	top: 0;
+	cursor: pointer;
+	width: 20px;
+	height: 20px
+}
+
+.monitor .slider_thumb:hover {
+	background-position: -21px
+}
+
+.monitor .slider_border.disabled .slider_thumb {
+	cursor: default;
+	background-position: -63px
+}
+
+.monitor .slider_thumb_1 {
+	background: url(../../img/monitorSlider/sliderthumb_1.png?v=4);
+	z-index: 1;
+	position: absolute;
+	left: 0;
+	top: 1px;
+	cursor: pointer;
+	width: 16px;
+	height: 16px
+}

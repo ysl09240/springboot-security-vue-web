@@ -1,0 +1,49 @@
+.monitor .listbox_row {
+	position: relative;
+	color: #000;
+	cursor: pointer
+}
+
+.monitor .itemIcon {
+	display: inline-block;
+	zoom: 1
+}
+
+.monitor .listbox_row.alter {
+	background-color: #F1F1F1
+}
+
+.monitor .listbox_row:hover {
+	background-color: #ccc
+}
+
+.monitor .listbox_row.selected {
+	background-color: #7E7E7E;
+	color: #fff
+}
+
+.monitor .listbox_row.selected {
+	color: #fff
+}
+
+.monitor .listbox_table {
+	padding: 0;
+	margin: 0
+}
+
+.monitor .listbox_td {
+	white-space: nowrap
+}
+
+.monitor .listbox_row .valueTd {
+	display: inline-block;
+	zoom: 1
+}
+
+.monitor .listbox_row .btnDiv {
+	display: inline-block;
+	zoom: 1;
+	position: absolute;
+	top: 0;
+	right: 10px
+}

@@ -1,0 +1,594 @@
+.monitor html {
+	width: 100%;
+	height: 99.99%
+}
+
+.monitor body {
+	margin: 0;
+	padding: 0;
+	position: relative;
+	width: 100%;
+	height: 100%;
+	background-color: #E1E1E1;
+	font-size: 14px;
+	overflow: auto
+}
+
+.monitor button,.monitor input,.monitor select,.monitor textarea {
+	font-size: 13px;
+	font-family: 微软雅黑
+}
+
+.monitor #Main {
+	position: absolute;
+	top: 30px;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	min-width: 1000px;
+	display: block
+}
+
+.monitor #Top_1 {
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 77px;
+	background-color: #FFF;
+	width: 100%;
+	z-index: 100;
+	min-width: 500px
+}
+
+.monitor #Top_2 {
+	position: fixed;
+	top: 77px;
+	left: 0;
+	height: 35px;
+	background-color: #FFF;
+	width: 100%;
+	z-index: 99;
+	min-width: 500px;
+	border-bottom: 1px solid #666;
+	padding-left: 49px
+}
+
+.monitor .TopContent {
+	position: relative;
+	top: 0;
+	height: 100%;
+	width: 99%;
+	margin-left: auto;
+	margin-right: auto
+}
+
+.monitor #logo {
+	position: absolute;
+	top: 15px;
+	left: 55px;
+	background-image: url(../../img/monitormainMaster/logo.png);
+	width: 55px;
+	height: 55px
+}
+
+.monitor #webNameImg {
+	position: absolute;
+	top: 29px;
+	left: 120px;
+	width: 242px;
+	height: 27px;
+	background-image: url(../../img/monitormainMaster/appName.png)
+}
+
+.monitor #webName {
+	position: absolute;
+	top: 19px;
+	left: 120px;
+	font-family: Bodoni MT #000;
+	font-size: 40px;
+	font-weight: 700;
+	color: #00BBDB;
+	display: none
+}
+
+.monitor #moduleName {
+	position: absolute;
+	top: 33px;
+	left: 405px;
+	font-size: 18px;
+	font-weight: 700;
+	color: #00BBDB
+}
+
+.monitor .backIcon {
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	vertical-align: middle;
+	background-image: url(../../img/monitormainMaster/back.png)
+}
+
+.monitor #back {
+	position: absolute;
+	right: 49px;
+	top: 20px;
+	padding-right: 4px;
+	font-size: 16px
+}
+
+.monitor #back a {
+	color: #000;
+	text-decoration: none
+}
+
+.monitor #back:hover span {
+	color: #00BBDB;
+	text-decoration: underline
+}
+
+.monitor #userInfoPl {
+	position: absolute;
+	right: 49px;
+	top: 46px
+}
+
+.monitor #userInfoPl a {
+	color: #000;
+	text-decoration: none
+}
+
+.monitor #userInfoPl a.effective:hover {
+	color: #00BBDB;
+	text-decoration: underline
+}
+
+.monitor .topHolder {
+	height: 114px
+}
+
+.monitor #Menu {
+	position: absolute;
+	left: 0;
+	top: 0;
+	font-size: 16px;
+	font-weight: 700
+}
+
+.monitor #Menu ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0
+}
+
+.monitor #Menu ul.menu_1>li {
+	float: left;
+	font-size: 16px;
+	font-weight: 700;
+	height: 29px;
+	line-height: 29px;
+	margin: 0 10px
+}
+
+.monitor #Menu ul.menu_1>li>a {
+	color: #666;
+	display: inline-block;
+	padding: 0 10px;
+	position: relative;
+	text-decoration: none;
+	white-space: nowrap;
+	font-size: 16px;
+	background-color: #FFF;
+	outline-style: none
+}
+
+.monitor #Menu ul.menu_1 b {
+	border-right: transparent 5px solid;
+	border-top: #EEE 5px solid;
+	border-bottom: transparent 5px solid;
+	border-left: transparent 5px solid;
+	font-size: 0;
+	width: 0;
+	line-height: 0;
+	position: absolute;
+	top: 18px;
+	right: 10px;
+	height: 0
+}
+
+.monitor #Menu ul.menu_1>li:hover>a {
+	color: #313131;
+	border-bottom: 6px solid #E1FBFF
+}
+
+.monitor #Menu ul.menu_1>li:hover>a>b {
+	border-right: transparent 5px solid;
+	border-top: transparent 5px solid;
+	border-bottom: #EEE 5px solid;
+	border-left: transparent 5px solid;
+	top: 12px
+}
+
+.monitor #Menu ul.menu_1>li>a.selected {
+	background-color: #FFF;
+	color: #00BBDB;
+	border-bottom: 6px solid #00BBDB
+}
+
+.monitor #Menu ul.menu_2 {
+	display: none;
+	z-index: 3
+}
+
+.monitor #Menu ul.menu_2>li {
+	font-size: 14px;
+	font-weight: 700;
+	height: 30px;
+	line-height: 30px
+}
+
+.monitor #Menu ul.menu_2>li>a {
+	color: #CBCBCB;
+	display: inline-block;
+	padding: 0 11px;
+	position: relative;
+	text-decoration: none;
+	white-space: nowrap;
+	font-size: 14px;
+	background-color: #7E7E7E;
+	outline-style: none
+}
+
+.monitor #Menu ul.menu_2>li>a:hover {
+	background-color: #A1A09E;
+	color: #FFF
+}
+
+.monitor #Menu ul.menu_2>li>a.selected {
+	background-color: #00BBDB;
+	color: #FFF
+}
+
+.monitor #Content {
+	position: relative;
+	top: 0;
+	width: 100%;
+	height: 720px
+}
+
+.monitor #mainContent {
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	top: 0px;
+	bottom: 30px;
+	border: solid 1px #999;
+	background-color: #FFF;
+	padding: 10px
+}
+
+.monitor #divTabHeader {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 1px;
+	background-color: #f2f2f2;
+	height: 35px
+}
+
+.monitor #subContent {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	padding: 10px;
+	right: 0;
+	top: 35px;
+	border-top: 1px solid #999
+}
+
+.monitor #divCopyRight {
+	text-align: center;
+	font-size: 14px;
+	color: #676767;
+	padding: 1px 0 0 0;
+	height: 16px;
+	margin: 0
+}
+
+.monitor .toolBarSearchBorder {
+	height: 23px;
+	border: solid 1px #999;
+	padding: 2px 0 0 2px
+}
+
+.monitor .toolBarText {
+	width: 210px;
+	height: 20px;
+	border: none!important;
+	vertical-align: top;
+	float: left;
+	margin: 0 2px 0 2px
+}
+
+.monitor .toolBarIconBtn {
+	width: 22px;
+	height: 22px;
+	float: left;
+	cursor: pointer
+}
+
+.monitor .toolBarText1 {
+	width: 210px;
+	height: 20px;
+	vertical-align: top;
+	float: left;
+	margin: 0 2px 0 2px
+}
+
+.monitor .toolBarIconBtn1 {
+	width: 22px;
+	height: 22px;
+	background-color: #fff;
+	border: solid 1px #888;
+	float: left;
+	margin: 0 0 0 5px;
+	background-color: #888;
+	cursor: pointer
+}
+
+.monitor .toolBarBtn {
+	border: 0;
+	background-color: transparent;
+	margin: 0;
+	padding: 2px;
+	vertical-align: middle;
+	cursor: pointer;
+	margin: 0 0 0 20px
+}
+
+.monitor .toolBarBtn>div {
+	width: 16px;
+	height: 16px;
+	float: left;
+	margin: 3px 0 0 0
+}
+
+.monitor .toolBarBtn>span {
+	float: left;
+	margin: 0 0 0 5px;
+	font-size: 16px
+}
+
+.monitor .toolBarAdd>div {
+	background-image: url(../../img/monitormainMaster/add.png)
+}
+
+.monitor .toolBarDel>div {
+	background-image: url(../../img/monitormainMaster/del.png)
+}
+
+.monitor .toolBarEdit>div {
+	background-image: url(../../img/monitormainMaster/edit.png)
+}
+
+.monitor .toolBarSchedule>div {
+	background-image: url(../../img/monitormainMaster/schedule.png)
+}
+
+.monitor #btnToolBarSearch.toolBarIconBtn {
+	background-image: url(../../img/monitormainMaster/search.png)
+}
+
+.monitor .tabMenu {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	margin: 3px 0 0 10px;
+	padding: 0;
+	z-index: 9
+}
+
+.monitor .tabMenu>li {
+	margin: 0;
+	padding: 0;
+	display: inline;
+	list-style-type: none
+}
+
+.monitor .tabMenu>li>a {
+	float: left;
+	padding: 0;
+	text-decoration: none;
+	line-height: 20px;
+	padding: 5px 15px 5px 15px;
+	margin: 0 5px 0 0;
+	list-style-type: none;
+	background-color: #F2F2F2;
+	border-right: solid 1px #999;
+	border-top: solid 1px #F2F2F2;
+	border-left: solid 1px #F2F2F2;
+	border-right: solid 1px #F2F2F2;
+	color: #333;
+	font-size: 14px;
+	z-index: 7
+}
+
+.monitor .tabMenu>li.selected>a {
+	background-color: #fff;
+	border-bottom: solid 1px #FFF;
+	border-top: solid 1px #999;
+	border-left: solid 1px #999;
+	border-right: solid 1px #999;
+	z-index: 8
+}
+
+.monitor #topFloatMsg {
+	position: absolute;
+	width: 300px;
+	height: 150px;
+	z-index: 301;
+	border: solid 1px #5f5f5f;
+	display: none
+}
+
+.monitor #topFloatMsg_title {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 25px;
+	background-color: #fff;
+	border-bottom: solid 1px #5f5f5f;
+	color: #666;
+	padding: 5px 5px 0 10px;
+	font-size: 14px;
+	font-weight: 700
+}
+
+.monitor #topFloatMsg_body {
+	position: absolute;
+	top: 31px;
+	left: 0;
+	right: 0;
+	bottom: 11px;
+	background-color: #fff;
+	color: #000;
+	font-size: 13px
+}
+
+.monitor #topFloatMsg_icon {
+	position: absolute;
+	top: 20px;
+	left: 10px;
+	width: 50px;
+	height: 50px;
+	background-image: url(../../img/monitormainMaster/msg_type.png)
+}
+
+.monitor #topFloatMsg_icon.Msg_ok {
+	background-position: 0 0
+}
+
+.monitor #topFloatMsg_icon.Msg_error {
+	background-position: -50px 0
+}
+
+.monitor #topFloatMsg_icon.Msg_info {
+	background-position: -100px 0
+}
+
+.monitor #topFloatMsg_icon.Msg_alarm {
+	background-position: -150px 0
+}
+
+.monitor #topFloatMsg_icon.Msg_question {
+	background-position: -200px 0
+}
+
+.monitor #topFloatMsg_content {
+	position: absolute;
+	top: 22px;
+	left: 65px;
+	right: 0;
+	bottom: 0;
+	padding: 10px
+}
+
+.monitor #topFloatMsg_bottom {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 10px;
+	background-color: #fff;
+	border-top: solid 1px #5f5f5f
+}
+
+.monitor #topFloatMsg_bk {
+	position: absolute;
+	display: none;
+	z-index: 300
+}
+
+.monitor #topRollMsg {
+	position: fixed;
+	width: 400px;
+	height: 300px;
+	bottom: 0;
+	right: 0;
+	background-color: #fff;
+	z-index: 51;
+	border: solid 1px #ccc;
+	display: none
+}
+
+.monitor #topRollMsg_title {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 36px;
+	color: #666;
+	border-bottom: 1px solid #CCC
+}
+
+.monitor #topRollMsg_title>span {
+	position: absolute;
+	left: 13px;
+	top: 8px;
+	font-size: 16px
+}
+
+.monitor #topRollMsg_close {
+	position: absolute;
+	right: 6px;
+	top: 6px;
+	width: 25px;
+	height: 25px;
+	background-image: url(../../img/monitormainMaster/close.png?v=4)
+}
+
+.monitor #topRollMsg_close:hover {
+	background-position: -25px 0
+}
+
+.monitor #topRollMsg_content {
+	position: absolute;
+	top: 47px;
+	left: 15px;
+	right: 15px;
+	bottom: 10px;
+	overflow-x: hidden;
+	overflow-y: auto
+}
+
+.monitor #topRollMsg_bk {
+	position: fixed;
+	width: 402px;
+	height: 302px;
+	bottom: 0;
+	right: 0;
+	z-index: 50;
+	display: none
+}
+
+.monitor #topRollMsg_content>div {
+	padding: 3px 8px 3px 8px;
+	font-size: 13px;
+	word-break: break-all
+}
+
+.monitor #topRollMsg_content>div:hover {
+	background-color: #E1FBFF
+}
+
+.monitor #topRollMsg_content>div.selected {
+	padding: 4px 8px 4px 8px;
+	background-color: #00BBDB
+}
+
+.monitor #popLiveOCX {
+	width: 600px;
+	height: 450px;
+	background-color: #787878
+}

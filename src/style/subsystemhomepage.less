@@ -1,0 +1,58 @@
+.system{
+  width:-webkit-calc(100%);
+  width:-moz-calc(100%);
+  width: calc(100%);
+  background: #edf1f2;
+  min-width: 1070px;
+}
+
+/*环境平台子系统首页*/
+.environment-home-page {
+  // 重置 element 样式
+  .el-scrollbar__wrap{
+    overflow: scroll;
+    overflow-x:hidden;
+  }
+  // 重置 select 样式
+  .el-input__inner{
+    height: 34px;
+    line-height: 34px;
+    background: #F9F9FB;
+    border-radius: 3px;
+    //-webkit-box-shadow:0px 1px 1px #dcdfe6 inset;
+    //-moz-box-shadow:0px 1px 1px #dcdfe6 inset;
+    //box-shadow: 0px 1px 1px #dcdfe6 inset;
+    &::placeholder {
+      color: #999999;
+    }
+  }
+  .el-select .el-input.is-focus .el-input__inner,.el-select .el-input__inner:focus {
+    border-color: #3ac0c3;
+    box-shadow: 0 0 1px #3ac0c3;
+  }
+  .el-select .el-input .el-input__suffix .el-input__suffix-inner .el-select__caret{
+    line-height: 34px;
+  }
+  // 重置button的样式
+  .el-button {
+    background-color: #3AC0C3;
+    color: #ffffff;
+    &:hover {
+      background-color: #31a7aa;
+    }
+  }
+  // 时间选择器的icon
+  .el-input__icon, .el-range__icon, .el-icon-time {
+    line-height: 34px;
+  }
+  .el-range-input {
+    background: #F9F9FB;
+  }
+  .el-range-editor {
+    padding: 0 10px;
+  }
+  // form
+  .el-form-item {
+    margin-bottom: 0;
+  }
+}
